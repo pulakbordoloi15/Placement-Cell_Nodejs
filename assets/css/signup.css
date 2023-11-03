@@ -1,0 +1,40 @@
+#signUp-body{
+    background: #ffffffe9;
+}
+
+#signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #a1cdd4;
+    width: 40%;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    transition: all .4s;
+}
+#signUp:hover{
+    
+       background: #a1cdd4;
+}
+#signUp-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#signUp-form>input{
+    margin-top: 10px;
+    width: 90%;
+    outline: none;
+    border: none;
+    height: 40px;
+}
+#signUp-btn{
+    background: green;
+    color: rgb(0, 0, 0);
+    transition: all .4s;  
+}

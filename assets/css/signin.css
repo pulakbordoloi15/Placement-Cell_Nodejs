@@ -1,0 +1,39 @@
+#signIn-body{
+    background: #ffffffe9;
+}
+#signIn{
+    background: #a1cdd4;
+  
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#signIn-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#signIn-form>input{
+    width: 90%;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    height: 45px;
+   
+}
+
+#signIn-btn{
+    background: green;
+    color: aqua;
+}
+#signIn-btn:hover{
+
+    background: #709d9f;
+    color: #709d9f;
+
+}
